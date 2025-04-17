@@ -28,6 +28,23 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
+				agri: {
+					green: {
+						light: '#7c9d70',
+						DEFAULT: '#4a6741',
+						dark: '#34502c'
+					},
+					brown: {
+						light: '#d4b59e',
+						DEFAULT: '#a67c52',
+						dark: '#805e3d'
+					},
+					beige: {
+						light: '#f9f4e8',
+						DEFAULT: '#e8d8c3',
+						dark: '#d5c2a9'
+					}
+				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
